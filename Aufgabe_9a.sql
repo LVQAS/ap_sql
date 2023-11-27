@@ -1,1 +1,1 @@
-SELECT id, name, vorname, TIMESTAMPDIFF(YEAR, gebdat, CURDATE()) AS alter FROM Mitarbeiter;
+SELECT id, name, vorname, TIMESTAMPDIFF(YEAR, gebdat, CURDATE()) AS employee_age FROM Mitarbeiter;
