@@ -1,0 +1,1 @@
+SELECT Vorname, Name, eingestellt FROM mitarbeiter WHERE Name IN ('Kaufmann', 'Wolff') AND Vorname IN ('Sonja', 'Michael');
