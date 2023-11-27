@@ -1,0 +1,1 @@
+SELECT id, Name, Vorname FROM mitarbeiter WHERE eingestellt BETWEEN '2001-04-01' AND '2001-10-31';
