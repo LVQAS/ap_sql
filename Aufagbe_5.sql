@@ -1,0 +1,1 @@
+SELECT Name, Vorname, gebdat FROM mitarbeiter ORDER BY gebdat ASC;
