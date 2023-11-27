@@ -1,0 +1,1 @@
+SELECT bez, vpreis * 7.4748 AS 'Preis in DKK' FROM produkt;
