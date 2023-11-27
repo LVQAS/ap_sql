@@ -1,0 +1,1 @@
+SELECT m.name, m.vorname, m.aid, a.id, a.name FROM Mitarbeiter m INNER JOIN Abteilung a ON m.aid = a.id;

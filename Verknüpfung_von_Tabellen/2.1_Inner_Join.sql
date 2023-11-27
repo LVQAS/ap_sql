@@ -1,0 +1,1 @@
+SELECT m.name, m.vorname, m.aid, a.id, a.name FROM Mitarbeiter m, Abteilung a WHERE m.aid = a.id;
