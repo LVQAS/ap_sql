@@ -1,0 +1,1 @@
+SELECT CONCAT(Name, ', ', Vorname) AS 'Nachname, Vorname' FROM mitarbeiter;
