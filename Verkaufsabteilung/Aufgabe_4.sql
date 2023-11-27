@@ -1,0 +1,1 @@
+SELECT id, bez, IF(lagerbestand > 10, 'Ausreichend', IF(lagerbestand >= 1 AND lagerbestand <= 10, 'Gering', 'Ausverkauft')) AS lagerbestand FROM produkt ORDER BY id;

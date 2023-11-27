@@ -1,0 +1,1 @@
+SELECT id, bez, vpreis FROM produkt WHERE vpreis = (SELECT MAX(vpreis) FROM produkt);
