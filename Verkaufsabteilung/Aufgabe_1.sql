@@ -1,0 +1,1 @@
+SELECT id, bez, vpreis, eid, tid FROM produkt WHERE bez LIKE '%Wein%';
