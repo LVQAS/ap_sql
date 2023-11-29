@@ -1,0 +1,1 @@
+SELECT m.name, m.vorname, a.name AS Abteilungsname FROM Mitarbeiter m INNER JOIN Abteilung a ON m.aid = a.id ORDER BY m.vorname;

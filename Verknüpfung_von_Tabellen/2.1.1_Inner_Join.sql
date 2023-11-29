@@ -1,1 +1,1 @@
-SELECT m.name, m.vorname, m.aid, a.id, a.name FROM Mitarbeiter m INNER JOIN Abteilung a ON m.aid = a.id;
+SELECT m.vorname, m.name, g.gehalt FROM Mitarbeiter m INNER JOIN gehalt g ON m.id = g.id;

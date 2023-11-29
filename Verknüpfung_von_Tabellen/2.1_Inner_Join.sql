@@ -1,1 +1,1 @@
-SELECT m.name, m.vorname, m.aid, a.id, a.name FROM Mitarbeiter m, Abteilung a WHERE m.aid = a.id;
+SELECT m.name, m.vorname, a.name AS Abteilungsname FROM Mitarbeiter m, Abteilung a WHERE m.aid = a.id ORDER BY m.vorname;
