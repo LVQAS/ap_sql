@@ -1,0 +1,1 @@
+SELECT vorname, name, gehalt FROM Mitarbeiter;
