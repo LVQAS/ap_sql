@@ -1,1 +1,7 @@
-SELECT m.id, m.name, m.vorname FROM mitarbeiter m JOIN lieferung l ON m.id = l.mid WHERE l.lid = (SELECT id FROM lieferant WHERE name = "Red Bull AG") ORDER BY m.name ASC;
+SELECT DISTINCT kunde.id, kunde.name, lieferung.liefdatum
+FROM lachs.kunde
+JOIN lachs.bestellung ON kunde.id = bestellung.kid
+JOIN lachs.lieferung ON bestellung.mid = lieferung.mid
+WHERE lieferung.liefdatum <= NOW() - INTERVAL 1 MONTH
+AND bestellung.bezahlt = FALSE
+ORDER BY kunde.name ASC;
