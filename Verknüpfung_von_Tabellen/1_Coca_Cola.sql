@@ -1,0 +1,1 @@
+SELECT DISTINCT t.bez FROM typ t JOIN produkt p ON t.id = p.tid WHERE p.bez LIKE 'Coca%' ORDER BY t.bez ASC;
